@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Public IP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section id="get-data-page">
+        <h1>MY Public IP Address:</h1>
+        <button class="btn" id="get-data">Get Data</button>
+    </section>
+
+    <section id="display-data-page" class="display-none">
+        <h1>MY Public IP Address:</h1>
+        <div class="add-info">
+            <div class="row">
+                <div>
+                    <p class="title">Lat: <span class="latitude"></span></p>
+                    <p class="title">Long: <span class="longitude"></span></p>
+                </div>
+                <div>
+                    <p class="title">Region: <span class="region"></span></p>
+                    <p class="title">City: <span class="city"></span></p>
+                </div>
+                <div>
+                    <p class="title">Organisation: <span class="org"></span></p>
+                    <p class="title">Hostname: None<span class="hostname"></span></p>
+                </div>
+            </div>
+            <div class="map">
+                <iframe width="100%" height="500" frameborder="0" id="map-frame" style="border:0"></iframe>
+            </div>
+            <div class="ip-info">
+                <p class="title">Time Zone: <span class="time-zone"></span></p>
+                <p class="title">Date And Time: <span class="date-time"></span></p>
+                <p class="title">Pincode: <span class="pincode"></span></p>
+                <p class="title">Message: <span class="message"></span></p>
+            </div>
+        </div>
+        <div class="postal-data-container">
+            <div class="search">
+                <img class="icon" src="img/search-icon.png" alt="" srcset="">
+                <input type="text" name="filter-search" id="filter-search" placeholder="Filter">
+            </div>
+            <div class="postal-display"></div>
+        </div>
+    </section>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="script.js"></script>
+
+</html>

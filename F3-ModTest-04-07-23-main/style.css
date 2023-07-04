@@ -1,0 +1,81 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#get-data-page {
+    margin: 20px;
+}
+
+.btn {
+    width: 130px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.postal-display {
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+}
+
+.add-info {
+    margin: 10px;
+}
+
+.display-none {
+    display: none;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.postal-box {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.search {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.search img {
+    width: 20px;
+    padding: 10px;
+}
+
+.search input {
+    width: 100%;
+    border: none;
+    font-size: medium;
+    background: transparent;
+}
+
+.search input:focus {
+    outline: none;
+}
+
+
+#display-data {
+    margin: 0 20px;
+}
+
+span{
+    font-weight: 500;
+}
